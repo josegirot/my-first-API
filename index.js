@@ -16,7 +16,7 @@ let notes =[
     {
       "userId": 1, 
       "id": 1,
-      "title": "Frutas",
+      "title": "Fruta",
       "body": "Manzana"
     },
     {
@@ -28,8 +28,8 @@ let notes =[
     {
       "userId": 1,
       "id": 3,
-      "title": "fruta",
-      "body": "fresa"
+      "title": "Fruta",
+      "body": "Fresa"
     }]
 
 app.get('/',(request, response)=>{
@@ -78,7 +78,7 @@ app.post('/api/notes',(request, response)=>{
    const newNote =[{
     "userId": 1, 
     "id": maxId + 1,
-    "title": "new note",
+    "title": "Fruta",
     "body": note.body
    }]
 
