@@ -1,0 +1,6 @@
+PUT  http://localhost:3001/api/notes/6260a2efd78721232d08debd
+Content-Type: application/json
+
+{
+      "body": "apple"
+}
